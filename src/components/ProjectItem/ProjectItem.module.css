@@ -1,0 +1,44 @@
+.projectsContainer {
+  text-align: left;
+}
+
+.projectContainer {
+  border: 4px solid rgb(41, 41, 41);
+}
+
+.projectDataContainer {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.projectDataInfo {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.projectDataImg {
+  width: 30%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.projectTitle {
+  text-align: left;
+  padding: 1em 2em;
+}
+
+.projectDescription {
+  text-align: justify;
+  padding: 0 2em;
+}
+
+.projectLinks {
+  text-align: left;
+  padding: 1em 2em;
+}
+
+.projectLinks a {
+  padding-right: 0.25em;
+}

@@ -1,0 +1,7 @@
+.container {
+  font-size: 14px;
+  background: #363636;
+  background: linear-gradient(180deg, #363636 50%, #272727 50%);
+  display: flex;
+  justify-content: center;
+}
