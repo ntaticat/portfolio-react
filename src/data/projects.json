@@ -1,0 +1,206 @@
+[
+  {
+    "name": "animeist",
+    "description": "Aplicación para guardar y gestionar listas de animes vistos",
+    "technology_tags": [
+      
+    ],
+    "img_links": [
+      "https://getsharex.com/img/ShareX_Screenshot.png"
+    ],
+    "project_links": [
+      {
+        "link_title": "Repo API REST",
+        "link_url": "https://github.com/ntaticat/animeist-api"
+      },
+      {
+        "link_title": "Repo Bot de Telegram",
+        "link_url": "https://github.com/ntaticat/animeist-telegram"
+      }
+    ]
+  },
+  {
+    "name": "conejito-commerce",
+    "description": "Aplicación para gestionar las ventas de productos",
+    "technology_tags": [
+      
+    ],
+    "img_links": [
+      "https://getsharex.com/img/ShareX_Screenshot.png"
+    ],
+    "project_links": [
+      {
+        "link_title": "Repo API REST",
+        "link_url": "https://github.com/ntaticat/conejito-commerce-api"
+      },
+      {
+        "link_title": "Repo SPA React",
+        "link_url": "https://github.com/ntaticat/conejito-commerce"
+      },
+      {
+        "link_title": "Repo SPA React con TypeScript",
+        "link_url": "https://github.com/ntaticat/conejito-commerce-react"
+      }
+    ]
+  },
+  {
+    "name": "conejito-quiz",
+    "description": "Aplicación para crear y realizar quizzes",
+    "technology_tags": [
+      
+    ],
+    "img_links": [
+      "https://getsharex.com/img/ShareX_Screenshot.png"
+    ],
+    "project_links": [
+      {
+        "link_title": "Repo SPA Angular",
+        "link_url": "https://github.com/ntaticat/conejito-quiz"
+      }
+    ]
+  },
+  {
+    "name": "creanovel",
+    "description": "Aplicación para crear y jugar novelas visuales",
+    "technology_tags": [
+      
+    ],
+    "img_links": [
+      "https://getsharex.com/img/ShareX_Screenshot.png"
+    ],
+    "project_links": [
+      {
+        "link_title": "Repo API REST",
+        "link_url": "https://github.com/ntaticat/creanovel-dotnet"
+      },
+      {
+        "link_title": "Repo SPA Angular",
+        "link_url": "https://github.com/ntaticat/creanovel-angular"
+      }
+    ]
+  },
+  {
+    "name": "current messages",
+    "description": "Aplicación tipo chat en tiempo real",
+    "technology_tags": [
+      
+    ],
+    "img_links": [
+      "https://getsharex.com/img/ShareX_Screenshot.png"
+    ],
+    "project_links": [
+      {
+        "link_title": "Repo API REST",
+        "link_url": "https://github.com/ntaticat/current-messages-dotnet"
+      },
+      {
+        "link_title": "Repo SPA Angular",
+        "link_url": "https://github.com/ntaticat/current-messages-ng"
+      }
+    ]
+  },
+  {
+    "name": "docthesolve",
+    "description": "Aplicación help desk orientada al mantenimiento de cómputo de una institución escolar",
+    "technology_tags": [
+      
+    ],
+    "img_links": [
+      "https://getsharex.com/img/ShareX_Screenshot.png"
+    ],
+    "project_links": [
+      {
+        "link_title": "Repo API REST",
+        "link_url": "https://github.com/ntaticat/docthesolve-net"
+      },
+      {
+        "link_title": "Repo SPA Angular",
+        "link_url": "https://github.com/ntaticat/docthesolve-angular"
+      }
+    ]
+  },
+  {
+    "name": "organizador de folios",
+    "description": "Maquetación para sistema de creación de facturas electrónicas",
+    "technology_tags": [
+      
+    ],
+    "img_links": [
+      "https://getsharex.com/img/ShareX_Screenshot.png"
+    ],
+    "project_links": [
+      {
+        "link_title": "Repo SPA Angular",
+        "link_url": "https://github.com/ntaticat/organizador-folios"
+      }
+    ]
+  },
+  {
+    "name": "portfolio",
+    "description": "Aplicación para mostrar los proyectos que he realizado y para que conozcan un poco más de mí",
+    "technology_tags": [
+      
+    ],
+    "img_links": [
+      "https://getsharex.com/img/ShareX_Screenshot.png"
+    ],
+    "project_links": [
+      {
+        "link_title": "Repo SPA React",
+        "link_url": "https://github.com/ntaticat/portfolio-react"
+      }
+    ]
+  },
+  {
+    "name": "siss actividades",
+    "description": "Aplicación para gestionar las actividades del Sistema Institucional de Servicio Social",
+    "technology_tags": [
+      
+    ],
+    "img_links": [
+      "https://getsharex.com/img/ShareX_Screenshot.png"
+    ],
+    "project_links": [
+      {
+        "link_title": "Repo SPA Angular",
+        "link_url": "https://github.com/ntaticat/siss-actividades-ng"
+      },
+      {
+        "link_title": "Repo Web Scraping Python",
+        "link_url": "https://github.com/ntaticat/siss-webscrapping-python"
+      }
+    ]
+  },
+  {
+    "name": "taqueria python",
+    "description": "Aplicación de consola que simula un sistema de ventas de una taquería",
+    "technology_tags": [
+      
+    ],
+    "img_links": [
+      "https://getsharex.com/img/ShareX_Screenshot.png"
+    ],
+    "project_links": [
+      {
+        "link_title": "Repo Aplicación de Consola Python",
+        "link_url": "https://github.com/ntaticat/taqueria-python"
+      }
+    ]
+  },
+  {
+    "name": "web practices",
+    "description": "Pruebas de maquetación con HTML y CSS que he realizado para poner a prueba mis conocimientos",
+    "technology_tags": [
+      
+    ],
+    "img_links": [
+      "https://getsharex.com/img/ShareX_Screenshot.png"
+    ],
+    "project_links": [
+      {
+        "link_title": "Repo Páginas web",
+        "link_url": "https://github.com/ntaticat/web-practices"
+      }
+    ]
+  }
+]
