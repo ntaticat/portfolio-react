@@ -20,9 +20,6 @@ export const ContentLayout = ({ children, imageUrl, title }: IContentLayout) => 
             <div className={styles.infoContainer}>
               <p className={styles.title}>{ title }</p>
             </div>
-            <div className={styles.imgContainer}>
-              <img src={imageUrl} alt={`${title} image header second`} />
-            </div>
           </div>
           {/*  */}
           <div className={styles.bodyContainer}>

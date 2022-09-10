@@ -12,8 +12,10 @@ export interface IPageLayout {
 export const PageLayout = (props: IPageLayout) => {
   return (
     <>
-      <Header />
-      <NavigationContainer />
+      <div className={styles.header}>
+        <Header />
+        <NavigationContainer />
+      </div>
       { props.children }
     </>
   )

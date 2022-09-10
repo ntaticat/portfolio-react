@@ -18,6 +18,10 @@
   align-content: space-between;
 }
 
+.projectInfoContainer {
+  width: 100%;
+}
+
 .projectDataImg {
   width: 30%;
   object-fit: cover;
@@ -27,6 +31,7 @@
 .projectTitle {
   text-align: left;
   padding: 1em 2em;
+  font-size: 1.5em;
 }
 
 .projectDescription {
@@ -35,10 +40,25 @@
 }
 
 .projectLinks {
+  width: 100%;
   text-align: left;
   padding: 1em 2em;
 }
 
 .projectLinks a {
   padding-right: 0.25em;
+}
+
+@media screen and (max-width: 576px) {
+  .projectDataContainer {
+    flex-wrap: wrap;
+  }
+
+  .projectDataInfo {
+    width: 100%;
+  }
+
+  .projectDataImg {
+    width: 100%;
+  }
 }

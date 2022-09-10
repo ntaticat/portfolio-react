@@ -1,37 +1,79 @@
 @import './../../vars.css';
 
-.navContainer {
-  
-  border: 4px solid #686868;
+.container {
+  width: 100%;
+  display: block;
 }
 
-.navList {
-  background: #c0c0c0;
-  background: linear-gradient(180deg, #dadada 50%, #c0c0c0 50%);
-  display: flex;
-  padding: 0.25em;
+.activeMenu {
+  display: none;
+  width: 100%;
+  padding: 0.5em 1em;
   font-size: 1.5em;
-  width: fit-content;
+}
+
+.navContainer {
+  position: relative;
+  width: 100%;
   height: auto;
 }
 
+.navListContainer {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navList {
+  font-size: 1.5em;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  border: 4px solid gray;
+  border-radius: 0 0 0.5em 0.5em;
+  overflow: hidden;
+  border-top: none;
+}
+
+.navListLink {
+  text-decoration: underline;
+  color: white;
+  box-sizing: border-box;
+  width: 100%;
+}
+
 .navListItem {
+  box-sizing: border-box;
+  width: 100%;
   padding: 0.75em;
-  border-right: 4px solid rgb(255, 255, 255);
-}
+  text-align: center;
 
-.navListItem:first-child {
-  border-left: 4px solid rgb(255, 255, 255);
-}
-
-.navListItem:hover {
   background: var(--color-red-primary);
-}
-
-.navListItem:hover a {
   color: white;
 }
 
-.navListItem a {
-  color: var(--color-red-primary);
+.navListLink:nth-child(even) {
+  color: rgb(218, 15, 15);
+}
+
+.navListLink:nth-child(even) .navListItem {
+  background: rgb(255, 255, 255);
+  color: rgb(218, 15, 15);
+}
+
+.navListLink:last-child .navListItem {
+  border-bottom: none;
+}
+
+@media screen and (max-width: 576px) {
+  .navListContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  .activeMenu {
+    display: block;
+  }
 }
