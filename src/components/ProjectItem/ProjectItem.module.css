@@ -1,14 +1,13 @@
-.projectsContainer {
-  text-align: left;
-}
-
 .projectContainer {
-  border: 4px solid rgb(41, 41, 41);
+  /* border: 4px solid rgb(41, 41, 41); */
+  margin-bottom: 0.5em;
 }
 
 .projectDataContainer {
   display: flex;
   flex-wrap: nowrap;
+  background: rgb(41, 41, 41);
+  color: rgb(255, 255, 255);
 }
 
 .projectDataInfo {
@@ -16,6 +15,7 @@
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
+  padding: 0.5em;
 }
 
 .projectInfoContainer {
@@ -30,23 +30,27 @@
 
 .projectTitle {
   text-align: left;
-  padding: 1em 2em;
   font-size: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 .projectDescription {
   text-align: justify;
-  padding: 0 2em;
+  margin-bottom: 0.5em;
 }
 
 .projectLinks {
   width: 100%;
-  text-align: left;
-  padding: 1em 2em;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .projectLinks a {
-  padding-right: 0.25em;
+  /* margin-right: 0.25em; */
+  color: rgb(129, 214, 0);
+  min-width: 51%;
+  text-align: left;
+  margin-bottom: 0.25em;
 }
 
 @media screen and (max-width: 576px) {
