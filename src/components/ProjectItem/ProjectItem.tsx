@@ -24,7 +24,9 @@ export const ProjectItem = ({ repo }: IProjectItem) => {
               ))}
             </div>
           </div>
-          <img className={styles.projectDataImg} src={ repo.img_links[0] } alt="projectImage" />
+          <button className={styles.projectImgButton}>
+            <img className={styles.projectDataImg} src={ repo.img_links[0] } alt="projectImage" />
+          </button>
         </div>
       </div>
     </div>

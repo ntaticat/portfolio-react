@@ -22,6 +22,15 @@
   width: 100%;
 }
 
+.projectImgButton {
+  height: auto;
+  width: auto;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  background: rgb(41, 41, 41);
+}
+
 .projectDataImg {
   width: 30%;
   object-fit: cover;
@@ -32,6 +41,9 @@
   text-align: left;
   font-size: 1.5em;
   margin-bottom: 0.5em;
+  color: rgba(255, 255, 255, 1);
+  /* background: #6e6e6e; */
+  text-shadow: 3px 1px 3px rgb(116, 116, 116);
 }
 
 .projectDescription {
