@@ -10,9 +10,7 @@ export const MainPage = () => {
   return (
     <>
       <PageLayout>
-        <ContentContainer>
-          <MainContent />
-        </ContentContainer>
+        <MainContent />
       </PageLayout>
     </>
   )

@@ -4,11 +4,32 @@ import { ContentLayout } from '../../layouts/ContentLayout/ContentLayout'
 import { Navigation } from '../Navigation/Navigation'
 import { NavigationContainer } from '../NavigationContainer/NavigationContainer'
 import styles from './MainContent.module.css'
+import gif from '../../assets/chihiro_programming.gif';
 
 export const MainContent = () => {
   return (
-    <ContentLayout title='Hola!' imageUrl='https://i.pinimg.com/originals/18/91/cb/1891cbddd14e9084ac8ad51064f6e79f.gif'>
-      <p className={styles.bodyDescription}>Esta es mi página web, aqui podrás encontrar los <Link to='/projects'>proyectos</Link> que he realizado, puedes saber más <Link to='/about'>acerca de mí</Link> o puedes <Link to='/contact'>contactarme</Link>.</p>
-    </ContentLayout>
+    <div className={styles.mainContainer}>
+      {/* Título */}
+      <div className={styles.mainTitleContainer}>
+        <div className="">
+          <p className={styles.mainTitle}>Desarrollador de software</p>
+        </div>
+      </div>
+
+      {/* Acerca de mí */}
+      <div className={styles.aboutContainer}>
+        <div className="">
+          <p className={styles.titles}>Acerca de mí</p>
+        </div>
+        <div className="">
+          <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, officia.</p>
+        </div>
+      </div>
+
+      {/* Imagen */}
+      <div className={styles.gifContainer}>
+        <img className={styles.gif} src={gif} alt="" />
+      </div>
+    </div>
   )
 }

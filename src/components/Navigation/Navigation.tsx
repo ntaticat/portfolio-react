@@ -11,7 +11,7 @@ export const Navigation = () => {
       <button onClick={() => setActiveMenu(!activeMenu)} className={styles.activeMenu}>Menu</button>
       <div className={styles.navContainer}>
         {/*  && "window.innerWidth > 576? 'block': 'none'" */}
-        <nav style={{ display: activeMenu || window.innerWidth > 576 ? 'block' : 'none' }} className={styles.navListContainer}>
+        <nav style={{ display: activeMenu || window.innerWidth > 576 ? 'inline-block' : 'none' }} className={styles.navListContainer}>
           <ul className={styles.navList}>
             <Link className={styles.navListLink} to='/'><li className={styles.navListItem}>Inicio</li></Link>
             <Link className={styles.navListLink} to='/about'><li className={styles.navListItem}>Acerca de mí</li></Link>

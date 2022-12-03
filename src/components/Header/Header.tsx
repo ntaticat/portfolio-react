@@ -5,7 +5,8 @@ export const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <h1>Rafael Estrada</h1>
+        <h1 className={styles.name}>Rafael Estrada</h1>
+        <h2 className={styles.username}>@ntaticat</h2>
       </div>
     </header>
   )

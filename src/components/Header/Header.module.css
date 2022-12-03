@@ -1,4 +1,18 @@
 .container {
   background: #000;
   color: #fff;
+  padding: 0.5em 1em;
+  font-size: 22px;
+  
+}
+
+.name {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.username {
+  font-size: 1.5em;
+  font-weight: bold;
 }

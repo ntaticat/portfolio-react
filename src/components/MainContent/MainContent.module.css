@@ -1,0 +1,74 @@
+.mainContainer {
+    background-color: #181e18;
+    color: #fff;
+    padding: 1em 0.5em;
+}
+
+.mainTitleContainer {
+    border: 4px solid rgba(21, 255, 0, 0.527);
+    margin-bottom: 1em;
+}
+
+.mainTitleBar {
+    border-right: 30px solid rgb(255, 255, 255);
+    background-color: #4f401b;
+    padding: 1em;
+
+}
+
+.mainTitle {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.aboutContainer {
+    box-shadow: 0px 0px -20px 10px rgba(255,255,255,0.25);
+    -webkit-box-shadow: 0px 0px -20px 10px rgba(255,255,255,0.25);
+    -moz-box-shadow: 0px 0px -20px 10px rgba(255,255,255,0.25);
+    border: 4px solid #ffde8933;
+    background-color: #1d3820;
+    padding: 1em;
+}
+
+.mainTitleContainer {
+    box-shadow: 0px 0px -20px 10px rgba(255,255,255,0.25);
+    -webkit-box-shadow: 0px 0px -20px 10px rgba(255,255,255,0.25);
+    -moz-box-shadow: 0px 0px -20px 10px rgba(255,255,255,0.25);
+    border: 4px solid #ffde8933;
+    background-color: #e6dc86;
+    color: #1d3820;
+    padding: 1em;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.mainTitle {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.titles {
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.text {
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gifContainer {
+    background-color: #181e18;
+    padding: 1em;
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.gif {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
